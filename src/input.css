@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .section-min-height{
+        min-height: calc(100vh - 68px);
+    }
+
+
+}
+
+
+
+@layer utilities {
+    .toggle-btn {
+        @apply translate-y-0 rotate-45;
+        @apply translate-y-0 -rotate-45;
+        @apply bg-transparent rotate-[720deg];
+    }
+}
+
+
+
+
+
+
+    
